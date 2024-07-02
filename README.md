@@ -21,10 +21,10 @@ pip install pybullet
 Calibrate the PuzzleBot code for N robots.
 ```
 source devel/setup.bash
-roslaunch puzzlebot_assembly run_calib.launch N:=1
+roslaunch puzzlebot run_calib.launch N:=1
 ```
 
 Run teleoperative interface code.
 ```
-rosrun puzzlebot_assembly run_keyboard.py 1
+rosrun puzzlebot run_keyboard.py 1
 ```
