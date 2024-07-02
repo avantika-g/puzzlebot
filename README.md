@@ -16,7 +16,7 @@ pip install polytope
 pip install pybullet
 ```
 
-## Robot Control
+## Run Interface
 
 Calibrate the PuzzleBot code for N robots.
 ```
@@ -24,7 +24,7 @@ source devel/setup.bash
 roslaunch puzzlebot run_calib.launch N:=1
 ```
 
-Run teleoperative interface code.
+Run the teleoperative interface code.
 ```
 rosrun puzzlebot run_keyboard.py 1
 ```
