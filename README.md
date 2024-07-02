@@ -15,3 +15,16 @@ pip install casadi
 pip install polytope
 pip install pybullet
 ```
+
+## Robot Control
+
+Calibrate the PuzzleBot code for N robots.
+```
+source devel/setup.bash
+roslaunch puzzlebot_assembly run_calib.launch N:=1
+```
+
+Run teleoperative interface code.
+```
+rosrun puzzlebot_assembly run_keyboard.py 1
+```
