@@ -4,4 +4,6 @@ This code is adapted from here: https://github.com/ZoomLabCMU/puzzlebot as part 
 
 ## Setup
 
-`conda env create -f puzzle_env.yml`
+```
+conda env create -f puzzle_env.yml
+```
