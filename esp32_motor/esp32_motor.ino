@@ -1,8 +1,3 @@
-/*
- *  Build tcp connection and execute motor command
- *  Author: shayi@cs.cmu.edu
- */
-
 #include <WiFi.h>
 #include <WiFiMulti.h>
 #include "Esp32Motor.h"
