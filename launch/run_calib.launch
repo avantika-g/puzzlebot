@@ -1,0 +1,5 @@
+<launch>
+    <arg name="N" />
+    <param name="robot_num" type="int" value="$(arg N)" />
+    <node name="hardware_control" pkg="puzzlebot_assembly" type="run_hardware.py" output="screen" />
+</launch>
