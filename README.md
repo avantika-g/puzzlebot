@@ -1,6 +1,6 @@
 # PuzzleBot
 
-This code is adapted from here: https://github.com/ZoomLabCMU/puzzlebot as part of the Advanced Agents Robotics Technology lab @ CMU.
+This code is adapted from here: https://github.com/ZoomLabCMU/puzzlebot as part of research under the Advanced Agents Robotics Technology lab @ CMU.
 
 ## Setup
 
